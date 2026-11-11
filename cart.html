@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background: #f5f5f5;
+        }
+        .cart-item img{
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+        }
+        .cart-item{
+            background: #fff;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .summary-box{
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container my-5">
+
+    <h2 class="mb-4 fw-bold">Your Cart</h2>
+
+    <div class="row">
+        <!-- CART ITEMS -->
+        <div class="col-lg-8">
+            <!-- Cart Item 1 -->
+            <div class="cart-item d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <img src="images/st1.jpg" alt="Book">
+                    <div class="ms-3">
+                        <h5>MOONLOCKET (Peter Bunzl)</h5>
+                        <span class="fw-bold">₹299</span>
+                    </div>
+                </div>
+                <div>
+                    <input type="number" value="1" class="form-control mb-2" style="width: 80px;">
+                    <button class="btn btn-danger btn-sm">Remove</button>
+                </div>
+            </div>
+
+            <!-- Cart Item 2 -->
+            <div class="cart-item d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <img src="images/st2.jpg" alt="Book">
+                    <div class="ms-3">
+                        <h5>BLACK BEAUTY (Anna Sewell)</h5>
+                        <span class="fw-bold">₹299</span>
+                    </div>
+                </div>
+                <div>
+                    <input type="number" value="1" class="form-control mb-2" style="width: 80px;">
+                    <button class="btn btn-danger btn-sm">Remove</button>
+                </div>
+            </div>
+
+            <!-- Cart Item 3 -->
+            <div class="cart-item d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <img src="images/st3.jpg" alt="Book">
+                    <div class="ms-3">
+                        <h5>KICK (Mitch Johnson)</h5>
+                        <span class="fw-bold">₹480</span>
+                    </div>
+                </div>
+                <div>
+                    <input type="number" value="1" class="form-control mb-2" style="width: 80px;">
+                    <button class="btn btn-danger btn-sm">Remove</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- CART SUMMARY -->
+        <div class="col-lg-4">
+            <div class="summary-box">
+                <h4 class="fw-bold">Order Summary</h4>
+                <div class="d-flex justify-content-between mt-4">
+                    <span>Subtotal</span>
+                    <span>₹1,078</span>
+                </div>
+
+                <div class="d-flex justify-content-between mt-2">
+                    <span>Shipping</span>
+                    <span>₹49</span>
+                </div>
+
+                <hr>
+
+                <div class="d-flex justify-content-between fw-bold">
+                    <span>Total</span>
+                    <span>₹1,127</span>
+                </div>
+
+                <button class="btn btn-primary w-100 mt-3">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+

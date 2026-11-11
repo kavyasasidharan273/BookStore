@@ -1,0 +1,272 @@
+/* home content */
+.home{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative; 
+    gap: 40px;
+    padding: 40px 60px;
+     z-index: 0;
+
+}
+.home .text{
+    flex: 1;
+}
+/* .Main-header{
+    flex: 1;
+} */
+
+/* .home .img{
+    flex: 100px;
+   
+} */
+.home .img img{
+  /* margin-top: 0px; */
+  width: 700px;
+  height: auto;
+  /* display: block; */
+}
+.home .content{
+    flex: 1;
+    margin-top: 20px;
+}
+.content h2{
+    color: rgb(67 0 86);
+    font-weight: bold;
+    margin:23px;
+    font-size: 60px;
+    text-shadow: -1px 1px 1px black;
+}
+.content h2 span{
+    color:blue;
+    text-shadow: black;
+}
+#span2{
+    color: violet;
+}
+.content p{
+    margin-left: 20px;
+}
+.btn{
+    margin-left: 23px;
+}
+.btn button{
+    width: 150px;
+    height: 32px;
+    letter-spacing: 3px;
+    background-color: rgb(67 0 86);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: yellowgreen;
+    color:blue;
+    border: none;
+
+}
+@media  screen and (max-width:1200px){
+.home{
+    height: 90vh;
+}    
+}
+@media  screen and (max-width:799px){
+.home{
+    height: 140vh;
+}    
+}
+@media  screen and (max-width:550px){
+.home{
+    height: 110vh;
+}    
+}
+@media  screen and (max-width:550px){
+.home{
+    height: 110vh;
+}    
+}
+@media  screen and (max-width:420px){
+.content h2{
+    font-size: 45px;
+}    
+}
+@media  screen and (max-width:320px){
+.content h2{
+    font-size: 36px;
+}    
+}
+/* 
+categories */
+#categories .card{
+    /* width: 220px;
+    height: 380px; */
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#categories .card img{
+    /* width: 100px;
+    height: 200px; */
+    /* object-fit: cover; */
+    border-radius: 5px;
+} 
+#categories .card h5{
+    font-size: 18px;
+    height: 40px;
+    overflow: hidden;
+} 
+ #categories .price{
+    text-align: center;
+}
+#categories .card button{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+} 
+/* 
+#categories{
+    margin-top: 100px;
+}
+#categories h2{
+    color: blue;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid black;
+}
+#categories.card h5{
+    font-size: 25px;
+    color:black;
+}
+#categories.card p{
+    font-size: 12px;
+    color:black;
+}
+#categories .card h2{
+    font-size: 20px;
+    color:black;
+    margin-top: 20px;
+}
+#categories .card h2 span{
+    float: right;
+    color: black;
+    cursor: pointer;
+} */
+
+@media screen and(max-width:100px){
+    #categories .card h5{
+        font-size: 18px;
+    }
+    
+}
+/* others cards */
+.banner {
+    background: #f7f7f7;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.banner img {
+    width: 250px;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+
+.latest {
+    font-weight: bold;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 4px 10px;
+}
+.shop-btn1 {
+    border: 2px solid black;
+    background: transparent;
+    padding: 6px 10px;
+}
+/* .btn{
+    margin-left: 23px;
+} */
+.btn1 button{
+    width: 150px;
+    height: 32px;
+    letter-spacing: 3px;
+    background-color: rgb(67 0 86);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn1 button:hover{
+    background-color: yellowgreen;
+    color:blue;
+    border: none;
+}
+@media  screen and  (max-width: 1000px){
+    #other-cards .cards h3{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 1000px){
+    #other-cards .cards h5{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    #other-cards .card p{
+        margin-top: 0px;
+
+    }
+    #shopnow{
+        margin-top: 0px;
+        width: 120px;
+        height: 30px;
+        font-size: 16px;
+    }
+}
+     
+
+/* offer */
+#offer{
+    margin-top: 100px;
+}
+#offer{
+    font-size: 30px;
+    color: rgb(28, 20, 28);
+}
+
+
+
+
+/* contact */
+#contact{
+    width: 100%;
+    padding-top: 70px;
+}
+#contact p{
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+}
+/* #contact input{
+    width: 360px;
+    border: none; */
+    /* border-bottom: 1px solid blue; */
+
+
+
+
+    
+
+
+
+
